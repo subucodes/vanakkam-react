@@ -1,0 +1,40 @@
+Episode 1:Inception
+What I learned to do:
+How to say "hello world" using plain HTML
+How to use Javascript to manipulate DOM to say "hello world"
+How to inject react library into to the Javascript
+How to say "hello world" from react
+How to segregate the JS, CSS and HTML.
+How to add hierarchical structure 
+
+Questions:
+What are CDN/CDN links
+Does order matter in defining the script tags
+What does React.render() do
+What is a library and Framework
+
+Episode 2:Igniting our app
+What I learned to do:
+How to initialize npm
+How to install a npm package(parcel) as a dev dependancy
+How to ignore the node modules using gitignore
+
+Questions:
+What is npm( a package manager and not abbreviated as "Node package manager")
+What is the use of "parcel" package
+What is the significance of using the flag "-D" (DevDependancy as opposed to (normal) dependancy)
+What is the difference between ~ and ^ (tidle vs carat)
+What does package.json and package-lock.json do
+Why it is ok to ignore the node modules
+What is the significance of the hash value present in the package-lock.json
+What is transcient dependancy
+How do you re-generate the node modules if you deleted them
+Why "package-lock.json" not present in the node packages
+How do you decide which things to send to remote repo/git
+What happens if you execute "npm install" twice
+How do you execute a node package
+Why it is not recommended to import react packages via CDN links
+How do you resolved import/browser script issue
+How does Parcel gives faster dev experience
+How do you create production build
+How do you ensure that your app runs on multiple/different browsers
