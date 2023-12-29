@@ -1,19 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const nested_divs = React.createElement(
-  "div",
-  { id: "parent" },
-  [React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "heading" }, "This is vanakkam react 🚀"),
-    React.createElement("h2", { id: "heading" }, "This is Subbu"),
-  ]),
-  React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", { id: "heading" }, "This is heading tag"),
-    React.createElement("h2", { id: "heading" }, "This is h2 tag"),
-  ])]
-);
-
+// JSX - is a HTML like syntax ; it is not part of React
+const jsxHeading = <h1 className="heading">Vanakkam JS using JSX</h1>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(nested_divs);
+//React functional component: function that returns a react elements or JSX code
+const Title = ()=> <h1>This is a title</h1>
+const HeadingComponent = ()=> (
+    <div>
+    <Title/>
+    {Title()}
+    <h1 className="heading">This is subbu</h1>
+    </div>
+    
+    )
+
+root.render(<HeadingComponent/>);
+

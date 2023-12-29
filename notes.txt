@@ -1,25 +1,19 @@
 Episode 1:Inception
-What I learned to do:
 How to say "hello world" using plain HTML
 How to use Javascript to manipulate DOM to say "hello world"
 How to inject react library into to the Javascript
 How to say "hello world" from react
 How to segregate the JS, CSS and HTML.
 How to add hierarchical structure 
-
-Questions:
 What are CDN/CDN links
 Does order matter in defining the script tags
 What does React.render() do
 What is a library and Framework
 
 Episode 2:Igniting our app
-What I learned to do:
 How to initialize npm
 How to install a npm package(parcel) as a dev dependancy
 How to ignore the node modules using gitignore
-
-Questions:
 What is npm( a package manager and not abbreviated as "Node package manager")
 What is the use of "parcel" package
 What is the significance of using the flag "-D" (DevDependancy as opposed to (normal) dependancy)
@@ -38,3 +32,22 @@ How do you resolved import/browser script issue
 How does Parcel gives faster dev experience
 How do you create production build
 How do you ensure that your app runs on multiple/different browsers
+
+Episode 3: Laying the foundation
+What is the use of "scripts" section in package.json
+Can I use "npm" command instead of "npx" to execute a package
+Why does "npm start" works and not "npm build"(need to use npm run build)?
+Is JSX part of react
+Is creating react element objects using createElement and using JSX are same
+How is creating react element and JSX element are same
+What is transpilation what package is responsible for this
+Why JSX is preferred over React.createElement 
+Will the JS engine understands the JSX code
+When you write code , do you write for humans or machines
+What does Babel do
+What naming convention you follow for assigning attributes for your JSX element
+What is a react component and what are the two types ?
+What are functional components
+What is a component composition
+How does JSX stop Cross Site Scripting
+How many ways are there to use other jsx elements/components within a component or jsx element
